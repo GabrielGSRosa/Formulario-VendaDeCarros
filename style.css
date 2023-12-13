@@ -1,0 +1,144 @@
+:root {
+    --cor-roxo: #5b15d4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0ebf8;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #222222;
+}
+
+p, label {
+    color: #444;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"] 
+input[type="number"]
+input[type="date"]
+input[type="file"]{
+    width: 400px;
+}
+
+/* Header */
+.header {
+    height: 160px;
+    padding: 20px;
+    background-color: #5b15d4;
+}
+
+.header h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+/* Form Container */
+
+.forms-container {
+    background-color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
+
+textarea {
+    padding: 10px 5px;
+}
+
+textarea {
+    width: 400px;
+}
+
+/* Form Header */
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: var(--cor-roxo);
+    border-bottom: 2px solid var(--cor-roxo);
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* form-body */
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-title p {
+    margin-bottom: 20px;
+}
+
+.full-form {
+    margin: 0 0 25px 25px;
+}
+
+.required-field {
+    color: red;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.box-input p {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: var(--cor-roxo);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    border-color: var(--cor-roxo);
+    color: var(--cor-roxo);
+}
